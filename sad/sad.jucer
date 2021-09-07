@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="fMnjwq" name="sad" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="PhiLv4" name="sad">
+    <GROUP id="{A2A3C4E9-669F-978B-214D-FA60BE57716A}" name="Source">
+      <FILE id="xzQ1EQ" name="DrumkitPieceComponent.cpp" compile="1" resource="0"
+            file="Source/DrumkitPieceComponent.cpp"/>
+      <FILE id="Vz2JVC" name="DrumkitPieceComponent.h" compile="0" resource="0"
+            file="Source/DrumkitPieceComponent.h"/>
+      <FILE id="ooC3Zj" name="VelocityRangeComponent.cpp" compile="1" resource="0"
+            file="Source/VelocityRangeComponent.cpp"/>
+      <FILE id="tXxvq5" name="VelocityRangeComponent.h" compile="0" resource="0"
+            file="Source/VelocityRangeComponent.h"/>
+      <FILE id="EcEZ43" name="PieComponent.cpp" compile="1" resource="0"
+            file="Source/PieComponent.cpp"/>
+      <FILE id="zQutuw" name="PieComponent.h" compile="0" resource="0" file="Source/PieComponent.h"/>
+      <FILE id="iSsWB3" name="PieSliceComponent.cpp" compile="1" resource="0"
+            file="Source/PieSliceComponent.cpp"/>
+      <FILE id="LiVJBV" name="PieSliceComponent.h" compile="0" resource="0"
+            file="Source/PieSliceComponent.h"/>
+      <FILE id="uWaXyE" name="SampleRoulette.cpp" compile="1" resource="0"
+            file="Source/SampleRoulette.cpp"/>
+      <FILE id="BQKPhc" name="SampleRoulette.h" compile="0" resource="0"
+            file="Source/SampleRoulette.h"/>
+      <FILE id="rO6mZW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="onwLeY" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="nZqOhK" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="sad"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="sad"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../External Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../External Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../External Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../External Programs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../External Programs/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
